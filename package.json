@@ -1,6 +1,6 @@
 {
   "name": "generator-webpack-starter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a basic webpack starter",
   "homepage": "",
   "author": {
@@ -36,16 +36,11 @@
     "gulp-nsp": "^2.1.0",
     "gulp-coveralls": "^0.1.0"
   },
-  "eslintConfig": {
-    "extends": "xo-space",
-    "env": {
-      "mocha": true
-    }
-  },
   "repository": "phelma/generator-webpack-starter",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
+  preferGlobal: true,
   "license": "MIT"
 }
