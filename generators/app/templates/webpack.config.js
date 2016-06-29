@@ -6,19 +6,19 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var loaders = [
   {
-    "test": /\.js?$/,
-    "exclude": /node_modules/,
-    "loader": "babel",
-    "query": {
-      "presets": [
-        "es2015"
+    'test': /\.js?$/,
+    'exclude': /node_modules/,
+    'loader': 'babel',
+    'query': {
+      'presets': [
+        'es2015'
       ],
-      "plugins": []
+      'plugins': []
     }
   },
   {
-    "test": /\.css?$/,
-    "loader": "style!css"
+    'test': /\.css?$/,
+    'loader': 'style!css'
   }
 ];
 

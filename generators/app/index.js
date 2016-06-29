@@ -25,7 +25,7 @@ module.exports = yeoman.Base.extend({
   },
 
   writing: {
-    config: function() {
+    config: function () {
       this.fs.copyTpl(
         this.templatePath('_package.json'),
         this.destinationPath('package.json'), {
@@ -37,14 +37,14 @@ module.exports = yeoman.Base.extend({
         this.destinationPath('README.md'), {
           name: this.props.name
         }
-      )
+      );
       this.fs.copy(
         this.templatePath('webpack.config.js'),
         this.destinationPath('webpack.config.js')
-      )
+      );
     },
 
-    app: function() {
+    app: function () {
       this.fs.copy(
         this.templatePath('src/index.html'),
         this.destinationPath('src/index.html')
