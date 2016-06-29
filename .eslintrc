@@ -1,0 +1,43 @@
+{
+  "rules": {
+    "indent": [
+      1,
+      2,
+      {"SwitchCase": 1}
+    ],
+    "quotes": [
+      1,
+      "single"
+    ],
+    "linebreak-style": [
+      1,
+      "unix"
+    ],
+    "semi": [
+      1,
+      "always"
+    ],
+    "no-unused-vars": [1, {"vars": "all", "args": "none"}],
+    "no-console": 0,
+    "eqeqeq": [2, "smart"],
+    "no-mixed-spaces-and-tabs": 1,
+    "no-var": 0,
+    "guard-for-in": 1,
+    "curly": 1,
+    "strict": [1, "global"],
+    "no-multi-spaces": 0,
+    "react/prop-types": 1
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "mocha": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
