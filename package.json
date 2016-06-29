@@ -41,6 +41,6 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  preferGlobal: true,
+  "preferGlobal": true,
   "license": "MIT"
 }
