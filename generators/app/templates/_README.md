@@ -5,4 +5,4 @@
 
 `npm start`
 
-Go to `localhost:8080`
+Go to `http://localhost:8080/webpack-dev-server/`
