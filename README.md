@@ -26,6 +26,7 @@ yo webpack-starter
 ## License
 
 MIT © [Phil Helm](phelm.co.uk)
+thanks to yeoman team for the generator-generator!
 
 
 [npm-image]: https://badge.fury.io/js/generator-webpack-starter.svg
